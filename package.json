@@ -1,0 +1,18 @@
+{
+  "name": "com.defaultcompany.centerofmass",
+  "version": "1.0.1",
+  "displayName": "Center of Mass Calculator",
+  "description": "Center of mass calculator for physics games. \nThis tool calculate the center of mass of a rigid body based on the positions of the colliders weighted by their mass.\nThe center of mass can be calculated by taking the masses you are trying to find the center of mass between and multiplying them by their positions.\r\nThen, you add these together and divide that by the sum of all the individual masses.\r\nFormula -> centerOfMassPoint = (m1* p1 + m2* p2 + ... + mn* pn) / (m1 + m2 + ... + mn)\r\nm is the mass of each collider, and p is the position of each collider\r\nThe result is the center of mass point of the entire rigid body.",
+  "unity": "2021.3",
+  "unityRelease": "29f1",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": {
+    "name": "nicorm",
+    "email": "nicorm2000@gmail.com",
+    "url": "https://github.com/nicorm2000"
+  }
+}
